@@ -2,6 +2,7 @@
 
 This repository contains example code and pre-trained TinyML models that accompany the book, "TinyML Made Easy: Hands-On Machine Learning on Arduino for Beginners".
 This is not a replacement for the book. It is a companion resource designed to reduce friction and increase success.
+
 Supported Hardware (This repository has been tested with):
 -Arduino Nano 33 BLE Sense Lite
 -Arduino Nano 33 BLE Sense Rev2 (IMU-based examples)
@@ -9,13 +10,24 @@ Supported Hardware (This repository has been tested with):
 Chapter 2 uses only the accelerometer (IMU), so it works on both Lite and Rev2 boards.
 Later chapters in the book may recommend additional sensors available on Rev2.
 
-Chapter 2
+# Chapter 2: First TinyML App (Overview)
 The goal of this chapter is to help readers run their first TinyML application (FirstTinyMLApp) in minutes, without needing to train a model or understand the full TinyML workflow upfront.
-What’s in FirstTinyMLApp?
+FirstTinyMLApp
+-Task: Gesture recognition (shake detection)
+-Model: Binary classifier (still vs shake)
+-Sensor: Accelerometer (IMU)
+-Framework: Edge Impulse (model already trained)
+What it does:
+-Reads accelerometer data
+-Runs TinyML inference on-device
+-Prints prediction probabilities
+-Turns the onboard LED ON when a “shake” gesture is confidently detected
+
+This example is intentionally simple and reliable.
+
+FirstTinyMLApp Directory Structure
 -A pre-trained TinyML model (exported as an Arduino library)
 -A ready-to-run Arduino sketch used in Chapter 2
--Clear setup and troubleshooting instructions
--Code tested on real hardware
 
 FirstTinyMLApp Directory Structure
 tinyml-made-easy-companion/
@@ -33,22 +45,8 @@ tinyml-made-easy-companion/
 │
 └── README.md
 
-Chapter 2: First TinyML App (Overview)
 
-The FirstTinyMLApp demonstrates a simple but powerful TinyML use case:
 
-Task: Gesture recognition (shake detection)
-Model: Binary classifier (still vs shake)
-Sensor: Accelerometer (IMU)
-Framework: Edge Impulse (model already trained)
-
-What it does:
-Reads accelerometer data
-Runs TinyML inference on-device
-Prints prediction probabilities
-Turns the onboard LED ON when a “shake” gesture is confidently detected
-
-This example is intentionally simple and reliable.
 
 Quick Start (Chapter 2)
 1. Install the model library
