@@ -6,15 +6,14 @@ This is not a replacement for the book. It is a companion resource designed to r
 Supported Hardware (This repository has been tested with):
 * Arduino Nano 33 BLE Sense Lite
 * Arduino Nano 33 BLE Sense Rev2 (IMU-based examples)
+
 ⚠️ Note
-Chapter 2 uses only the accelerometer (IMU), so it works on both Lite and Rev2 boards.
-Later chapters in the book may recommend additional sensors available on Rev2.
+Chapter 2 uses only the accelerometer (IMU), so it works on both Lite and Rev2 boards. Later chapters in the book may recommend additional sensors available on Rev2.
 
 # Chapter 2: First TinyML App (Overview)
 The goal of this chapter is to help readers run their first TinyML application (FirstTinyMLApp) in minutes, without needing to train a model or understand the full TinyML workflow upfront.
 
 FirstTinyMLApp
-
 - Task: Gesture recognition (shake detection)
 - Model: Binary classifier (still vs shake)
 - Sensor: Accelerometer (IMU)
