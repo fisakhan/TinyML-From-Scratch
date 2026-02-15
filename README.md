@@ -4,8 +4,8 @@ This repository contains example code and pre-trained TinyML models that accompa
 This is not a replacement for the book. It is a companion resource designed to reduce friction and increase success.
 
 Supported Hardware (This repository has been tested with):
--Arduino Nano 33 BLE Sense Lite
--Arduino Nano 33 BLE Sense Rev2 (IMU-based examples)
+- Arduino Nano 33 BLE Sense Lite
+- Arduino Nano 33 BLE Sense Rev2 (IMU-based examples)
 ⚠️ Note
 Chapter 2 uses only the accelerometer (IMU), so it works on both Lite and Rev2 boards.
 Later chapters in the book may recommend additional sensors available on Rev2.
@@ -15,22 +15,22 @@ The goal of this chapter is to help readers run their first TinyML application (
 
 FirstTinyMLApp
 
--Task: Gesture recognition (shake detection)
--Model: Binary classifier (still vs shake)
--Sensor: Accelerometer (IMU)
--Framework: Edge Impulse (model already trained)
+- Task: Gesture recognition (shake detection)
+- Model: Binary classifier (still vs shake)
+- Sensor: Accelerometer (IMU)
+- Framework: Edge Impulse (model already trained)
 
 What it does:
--Reads accelerometer data
--Runs TinyML inference on-device
--Prints prediction probabilities
--Turns the onboard LED ON when a “shake” gesture is confidently detected
+- Reads accelerometer data
+- Runs TinyML inference on-device
+- Prints prediction probabilities
+- Turns the onboard LED ON when a “shake” gesture is confidently detected
 
 This example is intentionally simple and reliable.
 
 FirstTinyMLApp Directory Structure
--A pre-trained TinyML model (exported as an Arduino library)
--A ready-to-run Arduino sketch used in Chapter 2
+- A pre-trained TinyML model (exported as an Arduino library)
+- A ready-to-run Arduino sketch used in Chapter 2
 
 FirstTinyMLApp Directory Structure
 tinyml-made-easy-companion/
