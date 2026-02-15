@@ -4,8 +4,8 @@ This repository contains example code and pre-trained TinyML models that accompa
 This is not a replacement for the book. It is a companion resource designed to reduce friction and increase success.
 
 Supported Hardware (This repository has been tested with):
-- Arduino Nano 33 BLE Sense Lite
-- Arduino Nano 33 BLE Sense Rev2 (IMU-based examples)
+* Arduino Nano 33 BLE Sense Lite
+* Arduino Nano 33 BLE Sense Rev2 (IMU-based examples)
 ⚠️ Note
 Chapter 2 uses only the accelerometer (IMU), so it works on both Lite and Rev2 boards.
 Later chapters in the book may recommend additional sensors available on Rev2.
