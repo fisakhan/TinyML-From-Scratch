@@ -25,11 +25,15 @@ What it does:
 - Prints prediction probabilities
 - Turns the onboard LED ON when a “shake” gesture is confidently detected
 
-This example is intentionally simple and reliable.
+This example is intentionally simple and reliable (designed for teaching and learning, not benchmarking).
 
 FirstTinyMLApp Directory Structure
 - A pre-trained TinyML model (exported as an Arduino library)
 - A ready-to-run Arduino sketch used in Chapter 2
+
+⚠️ Note:
+If this repository helped you get your first TinyML application running, then it has done its job. For deeper understanding, debugging, and real projects, the book provides the full context.
+Happy building 🚀
 
 FirstTinyMLApp Directory Structure
 tinyml-made-easy-companion/
@@ -49,133 +53,23 @@ tinyml-made-easy-companion/
 
 
 
-
-Quick Start (Chapter 2)
-1. Install the model library
-
-Open Arduino IDE
-
-Go to Sketch → Include Library → Add .ZIP Library…
-
-Select the ZIP file in:
-
-models/shake_model_arduino.zip
-
-
-Restart Arduino IDE if needed
-
-2. Open the example sketch
-
-Open:
-
-arduino/FirstTinyMLApp/FirstTinyMLApp.ino
-
-
-Select:
-
-Board: Arduino Nano 33 BLE
-
-Port: Your connected device
-
-3. Upload and run
-
-Upload the sketch
-
-Open Serial Monitor
-
-Set baud rate to 115200
-
-You should see output similar to:
-
-still: 0.92   shake: 0.08
-
-
-Shake the board and observe:
-
-shake probability increases
-
-Built-in LED turns ON after confident detection
-
-Troubleshooting
-
-If something doesn’t work, check:
-
-docs/troubleshooting.md
-
-That Arduino_LSM9DS1 library is installed
-
-That the correct board and port are selected
-
-That the Edge Impulse library ZIP was imported correctly
-
-Most issues are setup-related, not model-related.
-
-About the Model
-
-Trained using Edge Impulse
-
-Quantized (int8) for microcontrollers
-
-Optimized for:
-
-Small size
-
-Fast inference
-
-Stable behavior
-
-Designed for teaching and learning, not benchmarking
-
-If you want to train your own model:
-
-See Chapters 4–6 of the book
-
-Versioning and Stability
-
-This repository uses stable, versioned releases.
-
-Code changes are conservative
-
-Examples prioritize reliability over experimentation
-
-Breaking changes are avoided
-
-If you are following the book, use the release that matches your book edition.
+If you want to train your own model: See Chapters 4–6 of the book. If you are following the book, use the release that matches your book edition.
 
 License
-
 This repository is provided for educational use.
-
 Code may be reused in personal and academic projects
-
 Attribution is appreciated
-
 See LICENSE file for details
-
 Feedback and Issues
 
 If you encounter:
-
-build errors
-
-unclear instructions
-
-hardware-specific issues
-
-Please open an issue with:
-
-your board type
-
-Arduino IDE version
-
-error message (copy/paste)
-
+- build errors
+- unclear instructions
+- hardware-specific issues
+- Please open an issue with:
+  - your board type
+  - Arduino IDE version
+  - error message (copy/paste)
 This helps improve the learning experience for everyone.
 
-Final Note
 
-If this repository helped you get your first TinyML application running, then it has done its job.
-
-For deeper understanding, debugging, and real projects, the book provides the full context.
-
-Happy building 🚀
