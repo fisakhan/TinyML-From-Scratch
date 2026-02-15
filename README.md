@@ -7,8 +7,7 @@ Supported Hardware (This repository has been tested with):
 * Arduino Nano 33 BLE Sense Lite
 * Arduino Nano 33 BLE Sense Rev2 (IMU-based examples)
 
-⚠️ Note
-Chapter 2 uses only the accelerometer (IMU), so it works on both Lite and Rev2 boards. Later chapters in the book may recommend additional sensors available on Rev2.
+⚠️ Note: Chapter 2 uses only the accelerometer (IMU), so it works on both Lite and Rev2 boards. Later chapters in the book may recommend additional sensors available on Rev2.
 
 # Chapter 2: First TinyML App (Overview)
 The goal of this chapter is to help readers run their first TinyML application (FirstTinyMLApp) in minutes, without needing to train a model or understand the full TinyML workflow upfront.
@@ -31,8 +30,7 @@ FirstTinyMLApp Directory Structure
 - A pre-trained TinyML model (exported as an Arduino library)
 - A ready-to-run Arduino sketch used in Chapter 2
 
-⚠️ Note:
-If this repository helped you get your first TinyML application running, then it has done its job. For deeper understanding, debugging, and real projects, the book provides the full context.
+⚠️ Note: If this repository helped you get your first TinyML application running, then it has done its job. For deeper understanding, debugging, and real projects, the book provides the full context.
 Happy building 🚀
 
 FirstTinyMLApp Directory Structure
