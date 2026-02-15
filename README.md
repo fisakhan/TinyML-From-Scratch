@@ -12,11 +12,14 @@ Later chapters in the book may recommend additional sensors available on Rev2.
 
 # Chapter 2: First TinyML App (Overview)
 The goal of this chapter is to help readers run their first TinyML application (FirstTinyMLApp) in minutes, without needing to train a model or understand the full TinyML workflow upfront.
+
 FirstTinyMLApp
+
 -Task: Gesture recognition (shake detection)
 -Model: Binary classifier (still vs shake)
 -Sensor: Accelerometer (IMU)
 -Framework: Edge Impulse (model already trained)
+
 What it does:
 -Reads accelerometer data
 -Runs TinyML inference on-device
