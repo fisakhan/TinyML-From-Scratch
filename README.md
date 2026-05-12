@@ -1,6 +1,6 @@
-# TinyML-Made-Easy — Companion Repository
+# TinyML-From-Scratch — Companion Repository
 
-This repository contains example code and pre-trained TinyML models that accompany the book, "TinyML Made Easy: Hands-On Machine Learning on Arduino for Beginners".
+This repository contains example code and pre-trained TinyML models that accompany the book, "TinyML From Scratch: Hands-On Machine Learning on Arduino for Beginners".
 This is not a replacement for the book. It is a companion resource designed to reduce friction and increase success.
 
 Supported Hardware (This repository has been tested with):
@@ -34,7 +34,7 @@ FirstTinyMLApp Directory Structure
 Happy building 🚀
 
 FirstTinyMLApp Directory Structure
-tinyml-made-easy-companion/
+tinyml-from-scratch-companion/
 │
 ├── arduino/
 │   └── FirstTinyMLApp/
