@@ -1,3 +1,67 @@
+# TinyML From Scratch: Hands-On TinyML and Edge AI
+<img width="1024" height="1536" alt="front_cover" src="https://github.com/user-attachments/assets/300e21ad-f024-497f-afd1-7ac5b076783f" />
+
+Welcome to the official companion repository for **TinyML From Scratch: Hands-On TinyML and Edge AI (First Edition)** by Asif Khan, PhD. 
+
+This repository contains all the production-ready code, datasets, firmware components, and deployment pipelines discussed throughout the book. It is designed to take you from absolute zero to confidently running optimized, stable machine learning models locally on hardware.
+
+---
+
+## 📖 About the Book
+The future of artificial intelligence is thriving on the edge, running locally on hardware that fits in the palm of your hand, even on your thumb. This book bridges the gap between isolated machine learning theory and hardware-constrained embedded programming. 
+
+Bypassing heavy math, deep theory and complex code, this guide focuses strictly on the end-to-end engineering workflow using the **Arduino Nano 33 BLE Sense** ecosystem and **Edge Impulse**.
+
+### 🛒 Where to Buy
+* **[Buy on Amazon (Paperback & Kindle Direct)](https://www.amazon.com/dp/YOUR_ASIN_HERE)** * **[Read the Author Profile & Research](https://www.saxion.edu/)**
+
+---
+
+## 🛠️ Repository Architecture & Code Files
+The repository is systematically aligned with the book chapters. Each directory contains fully documented code blocks and projects meant to be explored alongside the text.
+
+```text
+.
+├── .github/               # Repository configuration and issue templates
+├── assets/                # Architecture diagrams and media
+├── Chapter_02_First_App/  # Verification scripts and your first working inference
+├── Chapter_03_Sensors/    # Data collection and window management templates
+├── Chapter_04_Training/   # Edge Impulse basics
+├── Chapter_05_Training/   # Edge Impulse model configuration manifests
+├── Chapter_06_Arduino/    # Arduino-specific deployment code and model wrappers
+├── Chapter_07_Cpp_Lib/    # Raw optimized C++ inference libraries
+├── Chapter_08_Reliable/   # Confidence thresholds and time-smoothing pipelines
+├── Chapter_09_Efficiency/ # Memory profiling and benchmarking tools
+├── Chapter_10_Fusion/     # Multi-axis gesture recognition sensor fusion code
+└── Chapter_11_Smartphone/ # Mobile Edge AI implementation examples
+
+## 🚀 Getting Started
+
+[cite_start]To follow the practical engineering applications and step-by-step tutorials detailed in this book, you will need to configure a foundational hardware and software ecosystem[cite: 52]. 
+
+### 1. Hardware Checklist
+* [cite_start]**Microcontroller:** **Arduino Nano 33 BLE Sense (Recommended)**[cite: 54]. [cite_start]This specific board is selected because it integrates multiple onboard sensors natively, allowing you to focus immediately on edge data collection without wiring complex external circuits[cite: 58]. 
+* [cite_start]**USB Cable:** A high-quality Micro-USB cable that explicitly **supports data transfer** (not a standard charge-only cable)[cite: 55].
+* [cite_start]**Host Machine:** A development computer running Windows, macOS, or Linux[cite: 56].
+* [cite_start]**Mobile Device:** A smartphone (iOS or Android) used for the mobile Edge AI scaling benchmarks in Chapter 11[cite: 57, 121, 122].
+
+### 2. Software Stack
+* [cite_start]**Arduino IDE:** Required for writing, compiling, and flashing your deployment code to the physical microcontroller[cite: 63].
+* [cite_start]**Edge Impulse Account:** A free developer account on the Edge Impulse Studio platform to orchestrate data collection, feature generation, and digital model profiling[cite: 64].
+* [cite_start]**Web Browser:** Google Chrome or Microsoft Edge (highly recommended for seamless WebUSB/WebBLE data ingestion from your hardware)[cite: 65].
+
+### 3. Quickstart Environment Setup
+[cite_start]To clone this companion repository and prepare your workspace, execute the following commands in your terminal[cite: 67, 68]:
+```bash
+# Clone the repository
+git clone [https://github.com/fisakhan/TinyML-From-Scratch.git](https://github.com/fisakhan/TinyML-From-Scratch.git)
+
+# Navigate to the repository root
+cd TinyML-From-Scratch
+:
+:
+;
+;
 # TinyML-From-Scratch — Companion Repository
 
 This repository contains example code and pre-trained TinyML models that accompany the book, "TinyML From Scratch: Hands-On Machine Learning on Arduino for Beginners".
