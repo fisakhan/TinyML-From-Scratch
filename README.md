@@ -34,7 +34,7 @@ The repository is systematically aligned with the book chapters. Each directory 
 ├── Chapter_09_Efficiency/ # Memory profiling and benchmarking tools
 ├── Chapter_10_Fusion/     # Multi-axis gesture recognition sensor fusion code
 └── Chapter_11_Smartphone/ # Mobile Edge AI implementation examples
-
+```
 ## 🚀 Getting Started
 
 [cite_start]To follow the practical engineering applications and step-by-step tutorials detailed in this book, you will need to configure a foundational hardware and software ecosystem[cite: 52]. 
