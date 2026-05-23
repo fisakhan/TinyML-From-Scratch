@@ -13,7 +13,7 @@ The future of artificial intelligence is thriving on the edge, running locally o
 Bypassing heavy math, deep theory and complex code, this guide focuses strictly on the end-to-end engineering workflow using the **Arduino Nano 33 BLE Sense** ecosystem and **Edge Impulse**.
 
 ### 🛒 Where to Buy
-* **[Buy on Amazon (Paperback)]([https://www.amazon.com/dp/B0H2BLFP59](https://www.amazon.nl/-/en/Asif-Khan/dp/B0H2BLFP59/ref=sr_1_1?crid=30BC76NEQH0S8&dib=eyJ2IjoiMSJ9.xQxY1Ji4lOr9_bFzrCEH6Tfwi8PfhavwJe8L0RoB3Ck.f3LYzU6X8SAh590gltcaBKdPprwktvs375Cf7GK7QtE&dib_tag=se&keywords=tinyml+from+scratch&qid=1779526744&sprefix=tinyml+from+scratch%2Caps%2C95&sr=8-1))** * **[Read the Author Profile & Research](https://www.saxion.edu/)**
+* **[Buy on Amazon (Paperback)](https://www.amazon.nl/-/en/Asif-Khan/dp/B0H2BLFP59/)** * **[Read the Author Profile & Research](https://www.saxion.edu/)**
 
 ---
 
