@@ -105,7 +105,7 @@ tinyml-from-scratch-companion/
 └── README.md
 
 If you want to train your own model: See Chapters 4–6 of the book. If you are following the book, use the release that matches your book edition.
-
+```
 # License
 This repository is provided for educational use. Code may be reused in personal and academic projects. Attribution is appreciated. See LICENSE file for details.
 
@@ -119,5 +119,3 @@ If you encounter:
   - Arduino IDE version
   - error message (copy/paste)
 This helps improve the learning experience for everyone.
-
-
