@@ -3,7 +3,7 @@
 
 Welcome to the official companion repository for **TinyML From Scratch: Hands-On TinyML and Edge AI (First Edition)** by Asif Khan, PhD. 
 
-This repository contains all the production-ready code, datasets, firmware components, and deployment pipelines discussed throughout the book. It is designed to take you from absolute zero to confidently running optimized, stable machine learning models locally on hardware.
+This repository contains all the production-ready code, datasets, pre-trained TinyML models, firmware components, and deployment pipelines discussed throughout the book. This is not a replacement for the book. It is a companion resource designed to reduce friction and increase success. It is designed to take you to confidently running optimized, stable machine learning models locally on hardware. 
 
 ---
 
@@ -40,7 +40,9 @@ The repository is systematically aligned with the book chapters. Each directory 
 To follow the practical engineering applications and step-by-step tutorials detailed in this book, you will need to configure a foundational hardware and software ecosystem. 
 
 ### 1. Hardware Checklist
-* **Microcontroller:** **Arduino Nano 33 BLE Sense (Recommended)**. This specific board is selected because it integrates multiple onboard sensors natively, allowing you to focus immediately on edge data collection without wiring complex external circuits. 
+* **Microcontroller:** **Arduino Nano 33 BLE Sense (Recommended)**. This specific board is selected because it integrates multiple onboard sensors natively, allowing you to focus immediately on edge data collection without wiring complex external circuits. This repository has been tested with):
+  * Arduino Nano 33 BLE Sense Lite
+  * Arduino Nano 33 BLE Sense Rev2 (IMU-based examples)
 * **USB Cable:** A high-quality Micro-USB cable that explicitly **supports data transfer** (not a standard charge-only cable).
 * **Host Machine:** A development computer running Windows, macOS, or Linux.
 * **Mobile Device:** A smartphone (iOS or Android) used for the mobile Edge AI scaling benchmarks in Chapter 11.
@@ -59,13 +61,6 @@ git clone [https://github.com/fisakhan/TinyML-From-Scratch.git](https://github.c
 # Navigate to the repository root
 cd TinyML-From-Scratch
 # TinyML-From-Scratch — Companion Repository
-
-This repository contains example code and pre-trained TinyML models that accompany the book, "TinyML From Scratch: Hands-On Machine Learning on Arduino for Beginners".
-This is not a replacement for the book. It is a companion resource designed to reduce friction and increase success.
-
-Supported Hardware (This repository has been tested with):
-* Arduino Nano 33 BLE Sense Lite
-* Arduino Nano 33 BLE Sense Rev2 (IMU-based examples)
 
 ⚠️ Note: Chapter 2 uses only the accelerometer (IMU), so it works on both Lite and Rev2 boards. Later chapters in the book may recommend additional sensors available on Rev2.
 
