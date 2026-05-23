@@ -37,31 +37,27 @@ The repository is systematically aligned with the book chapters. Each directory 
 ```
 ## 🚀 Getting Started
 
-[cite_start]To follow the practical engineering applications and step-by-step tutorials detailed in this book, you will need to configure a foundational hardware and software ecosystem[cite: 52]. 
+To follow the practical engineering applications and step-by-step tutorials detailed in this book, you will need to configure a foundational hardware and software ecosystem. 
 
 ### 1. Hardware Checklist
-* [cite_start]**Microcontroller:** **Arduino Nano 33 BLE Sense (Recommended)**[cite: 54]. [cite_start]This specific board is selected because it integrates multiple onboard sensors natively, allowing you to focus immediately on edge data collection without wiring complex external circuits[cite: 58]. 
-* [cite_start]**USB Cable:** A high-quality Micro-USB cable that explicitly **supports data transfer** (not a standard charge-only cable)[cite: 55].
-* [cite_start]**Host Machine:** A development computer running Windows, macOS, or Linux[cite: 56].
-* [cite_start]**Mobile Device:** A smartphone (iOS or Android) used for the mobile Edge AI scaling benchmarks in Chapter 11[cite: 57, 121, 122].
+* **Microcontroller:** **Arduino Nano 33 BLE Sense (Recommended)**. This specific board is selected because it integrates multiple onboard sensors natively, allowing you to focus immediately on edge data collection without wiring complex external circuits. 
+* **USB Cable:** A high-quality Micro-USB cable that explicitly **supports data transfer** (not a standard charge-only cable).
+* **Host Machine:** A development computer running Windows, macOS, or Linux.
+* **Mobile Device:** A smartphone (iOS or Android) used for the mobile Edge AI scaling benchmarks in Chapter 11.
 
 ### 2. Software Stack
-* [cite_start]**Arduino IDE:** Required for writing, compiling, and flashing your deployment code to the physical microcontroller[cite: 63].
-* [cite_start]**Edge Impulse Account:** A free developer account on the Edge Impulse Studio platform to orchestrate data collection, feature generation, and digital model profiling[cite: 64].
-* [cite_start]**Web Browser:** Google Chrome or Microsoft Edge (highly recommended for seamless WebUSB/WebBLE data ingestion from your hardware)[cite: 65].
+* **Arduino IDE:** Required for writing, compiling, and flashing your deployment code to the physical microcontroller.
+* **Edge Impulse Account:** A free developer account on the Edge Impulse Studio platform to orchestrate data collection, feature generation, and digital model profiling.
+* **Web Browser:** Google Chrome or Microsoft Edge (highly recommended for seamless WebUSB/WebBLE data ingestion from your hardware) or FireFox.
 
 ### 3. Quickstart Environment Setup
-[cite_start]To clone this companion repository and prepare your workspace, execute the following commands in your terminal[cite: 67, 68]:
+To clone this companion repository and prepare your workspace, execute the following commands in your terminal:
 ```bash
 # Clone the repository
 git clone [https://github.com/fisakhan/TinyML-From-Scratch.git](https://github.com/fisakhan/TinyML-From-Scratch.git)
 
 # Navigate to the repository root
 cd TinyML-From-Scratch
-:
-:
-;
-;
 # TinyML-From-Scratch — Companion Repository
 
 This repository contains example code and pre-trained TinyML models that accompany the book, "TinyML From Scratch: Hands-On Machine Learning on Arduino for Beginners".
