@@ -6,13 +6,14 @@ Welcome to the official companion repository for **TinyML From Scratch: Hands-On
 This repository contains all the production-ready code, datasets, pre-trained TinyML models, firmware components, and deployment pipelines discussed throughout the book. This is not a replacement for the book. It is a companion resource designed to reduce friction and increase success. It is designed to take you to confidently running optimized, stable machine learning models locally on hardware. 
 
 ---
-
+<!--
 ## 📖 About the Book
 The future of artificial intelligence is thriving on the edge, running locally on hardware that fits in the palm of your hand, even on your thumb. This book bridges the gap between isolated machine learning theory and hardware-constrained embedded programming. 
 
 Bypassing heavy math, deep theory and complex code, this guide focuses strictly on the end-to-end engineering workflow using the **Arduino Nano 33 BLE Sense** ecosystem and **Edge Impulse**.
+-->
 
-### 🛒 Where to Buy
+## 🛒 Where to Buy
 
 Available on Amazon worldwide (e.g., amazon.com, amazon.co.uk, amazon.nl, amazon.de, amazon.ca, etc.)  
   **[Buy on Amazon (Paperback)](https://www.amazon.nl/-/en/Asif-Khan/dp/B0H2BLFP59/)**
