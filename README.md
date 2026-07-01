@@ -16,7 +16,10 @@ Bypassing heavy math, deep theory and complex code, this guide focuses strictly 
 ## 🛒 Where to Buy
 
 Available on Amazon worldwide (e.g., amazon.com, amazon.co.uk, amazon.nl, amazon.de, amazon.ca, etc.)  
+
+<p align="center">
   **[Buy on Amazon (Paperback)](https://www.amazon.nl/-/en/Asif-Khan/dp/B0H2BLFP59/)**
+</p>
 
 
 ---
