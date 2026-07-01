@@ -20,10 +20,10 @@ Available on Amazon worldwide (e.g., .com, .nl, .co.uk, .de, .it, etc.)<br>
 
 ---
 
-## 🛠️ Repository Architecture & Code Files
+## Repository Architecture & Code Files
 The repository is systematically aligned with the book chapters. <!--Each directory contains fully documented code blocks and projects meant to be explored alongside the text.-->
 
-## 🚀 Getting Started
+## Getting Started
 
 To follow the practical engineering applications and step-by-step tutorials detailed in this book, you will need to configure a foundational hardware and software ecosystem. 
 
