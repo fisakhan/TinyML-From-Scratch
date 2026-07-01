@@ -20,7 +20,7 @@ Bypassing heavy math, deep theory and complex code, this guide focuses strictly 
 
 ## 📖 About the Author
 * **[Linkedin](https://www.linkedin.com/in/dr-asifkhan/)**
-* **[Website]([https://www.linkedin.com/in/dr-asifkhan/](https://sites.google.com/view/asif-website/home?authuser=0))**
+* **[Website](https://sites.google.com/view/asif-website/home?authuser=0)**
 
 
 ---
