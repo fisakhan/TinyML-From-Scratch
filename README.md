@@ -19,6 +19,8 @@ Available on Amazon worldwide (e.g., amazon.com, amazon.co.uk, amazon.nl, amazon
   **[Buy on Amazon (Paperback)](https://www.amazon.nl/-/en/Asif-Khan/dp/B0H2BLFP59/)**
 
 
+
+
 ## 📖 About the Author
 * **[Linkedin](https://www.linkedin.com/in/dr-asifkhan/)**
 * **[Website](https://sites.google.com/view/asif-website/home?authuser=0)**
