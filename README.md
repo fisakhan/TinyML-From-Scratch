@@ -15,6 +15,15 @@ Bypassing heavy math, deep theory and complex code, this guide focuses strictly 
 ### 🛒 Where to Buy
 * **[Buy on Amazon (Paperback)](https://www.amazon.nl/-/en/Asif-Khan/dp/B0H2BLFP59/)** * **[Read the Author Profile & Research](https://www.saxion.edu/)**
 
+* 
+### 🛒 Where to Buy
+
+* Available on Amazon worldwide (e.g., Amazon.nl, Amazon.uk, Amazon.de, Amazon.it, etc.)  
+  👉 **[Buy on Amazon](https://www.amazon.nl/-/en/Asif-Khan/dp/B0H2BLFP59/)**
+
+* **[Learn more about the author & research](https://www.saxion.edu/)**
+
+
 ---
 
 ## 🛠️ Repository Architecture & Code Files
