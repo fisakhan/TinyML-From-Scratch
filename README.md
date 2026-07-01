@@ -70,7 +70,6 @@ If you encounter:
   - error message (copy/paste)
 This helps improve the learning experience for everyone.
 
-<br>
 ## About the Author
 * **[Linkedin](https://www.linkedin.com/in/dr-asifkhan/)**
 * **[Website](https://sites.google.com/view/asif-website/home?authuser=0)**
