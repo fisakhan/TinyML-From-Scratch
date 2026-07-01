@@ -18,12 +18,12 @@ Bypassing heavy math, deep theory and complex code, this guide focuses strictly 
 ---
 
 ## 🛠️ Repository Architecture & Code Files
-The repository is systematically aligned with the book chapters. Each directory contains fully documented code blocks and projects meant to be explored alongside the text.
-
+The repository is systematically aligned with the book chapters. <!--Each directory contains fully documented code blocks and projects meant to be explored alongside the text.
 ```text
 .
 ├── .github/               # Repository configuration and issue templates
 ├── assets/                # Architecture diagrams and media
+├── Chapter_01_Introduction/  # Introduction
 ├── Chapter_02_First_App/  # Verification scripts and your first working inference
 ├── Chapter_03_Sensors/    # Data collection and window management templates
 ├── Chapter_04_Training/   # Edge Impulse basics
@@ -34,23 +34,24 @@ The repository is systematically aligned with the book chapters. Each directory 
 ├── Chapter_09_Efficiency/ # Memory profiling and benchmarking tools
 ├── Chapter_10_Fusion/     # Multi-axis gesture recognition sensor fusion code
 └── Chapter_11_Smartphone/ # Mobile Edge AI implementation examples
-```
+```-->
 ## 🚀 Getting Started
 
 To follow the practical engineering applications and step-by-step tutorials detailed in this book, you will need to configure a foundational hardware and software ecosystem. 
 
 ### 1. Hardware Checklist
-* **Microcontroller:** **Arduino Nano 33 BLE Sense (Recommended)**. This specific board is selected because it integrates multiple onboard sensors natively, allowing you to focus immediately on edge data collection without wiring complex external circuits. This repository has been tested with):
+* **Microcontroller:** **Arduino Nano 33 BLE Sense (Recommended)**. This specific board is selected because it integrates multiple onboard sensors natively, allowing you to focus immediately on edge data collection without wiring complex external circuits. This repository has been tested with:
   * Arduino Nano 33 BLE Sense Lite
-  * Arduino Nano 33 BLE Sense Rev2 (IMU-based examples)
+  * Arduino Nano 33 BLE Sense Rev2
 * **USB Cable:** A high-quality Micro-USB cable that explicitly **supports data transfer** (not a standard charge-only cable).
 * **Host Machine:** A development computer running Windows, macOS, or Linux.
-* **Mobile Device:** A smartphone (iOS or Android) used for the mobile Edge AI scaling benchmarks in Chapter 11.
+* **Mobile Device:** A smartphone (iOS or Android) used for the mobile Edge AI.
 
 ### 2. Software Stack
 * **Arduino IDE:** Required for writing, compiling, and flashing your deployment code to the physical microcontroller.
 * **Edge Impulse Account:** A free developer account on the Edge Impulse Studio platform to orchestrate data collection, feature generation, and digital model profiling.
 * **Web Browser:** Google Chrome or Microsoft Edge (highly recommended for seamless WebUSB/WebBLE data ingestion from your hardware) or FireFox.
+* **C++ IDE:** IDE of your choice to write C++ code.
 
 ### 3. Quickstart Environment Setup
 To clone this companion repository and prepare your workspace, execute the following commands in your terminal:
@@ -62,49 +63,7 @@ git clone [https://github.com/fisakhan/TinyML-From-Scratch.git](https://github.c
 cd TinyML-From-Scratch
 # TinyML-From-Scratch — Companion Repository
 
-⚠️ Note: Chapter 2 uses only the accelerometer (IMU), so it works on both Lite and Rev2 boards. Later chapters in the book may recommend additional sensors available on Rev2.
-
-# Chapter 2: First TinyML App (Overview)
-The goal of this chapter is to help readers run their first TinyML application (FirstTinyMLApp) in minutes, without needing to train a model or understand the full TinyML workflow upfront.
-
-FirstTinyMLApp
-- Task: Gesture recognition (shake detection)
-- Model: Binary classifier (still vs shake)
-- Sensor: Accelerometer (IMU)
-- Framework: Edge Impulse (model already trained)
-
-What it does:
-- Reads accelerometer data
-- Runs TinyML inference on-device
-- Prints prediction probabilities
-- Turns the onboard LED ON when a “shake” gesture is confidently detected
-
-This example is intentionally simple and reliable (designed for teaching and learning, not benchmarking).
-
-FirstTinyMLApp Directory Structure
-- A pre-trained TinyML model (exported as an Arduino library)
-- A ready-to-run Arduino sketch used in Chapter 2
-
-⚠️ Note: If this repository helped you get your first TinyML application running, then it has done its job. For deeper understanding, debugging, and real projects, the book provides the full context.
-Happy building 🚀
-
-FirstTinyMLApp Directory Structure
-tinyml-from-scratch-companion/
-│
-├── arduino/
-│   └── FirstTinyMLApp/
-│       └── FirstTinyMLApp.ino
-│
-├── models/
-│   └── shake_model_arduino.zip
-│
-├── docs/
-│   ├── quickstart.md
-│   └── troubleshooting.md
-│
-└── README.md
-
-If you want to train your own model: See Chapters 4–6 of the book. If you are following the book, use the release that matches your book edition.
+If you are following the book, use the release that matches your book edition.
 ```
 # License
 This repository is provided for educational use. Code may be reused in personal and academic projects. Attribution is appreciated. See LICENSE file for details.
