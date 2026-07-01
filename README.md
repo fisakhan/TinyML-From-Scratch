@@ -18,23 +18,8 @@ Bypassing heavy math, deep theory and complex code, this guide focuses strictly 
 ---
 
 ## 🛠️ Repository Architecture & Code Files
-The repository is systematically aligned with the book chapters. <!--Each directory contains fully documented code blocks and projects meant to be explored alongside the text.
-```text
-.
-├── .github/               # Repository configuration and issue templates
-├── assets/                # Architecture diagrams and media
-├── Chapter_01_Introduction/  # Introduction
-├── Chapter_02_First_App/  # Verification scripts and your first working inference
-├── Chapter_03_Sensors/    # Data collection and window management templates
-├── Chapter_04_Training/   # Edge Impulse basics
-├── Chapter_05_Training/   # Edge Impulse model configuration manifests
-├── Chapter_06_Arduino/    # Arduino-specific deployment code and model wrappers
-├── Chapter_07_Cpp_Lib/    # Raw optimized C++ inference libraries
-├── Chapter_08_Reliable/   # Confidence thresholds and time-smoothing pipelines
-├── Chapter_09_Efficiency/ # Memory profiling and benchmarking tools
-├── Chapter_10_Fusion/     # Multi-axis gesture recognition sensor fusion code
-└── Chapter_11_Smartphone/ # Mobile Edge AI implementation examples
-```-->
+The repository is systematically aligned with the book chapters. <!--Each directory contains fully documented code blocks and projects meant to be explored alongside the text.-->
+
 ## 🚀 Getting Started
 
 To follow the practical engineering applications and step-by-step tutorials detailed in this book, you will need to configure a foundational hardware and software ecosystem. 
