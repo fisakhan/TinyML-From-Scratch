@@ -12,10 +12,9 @@ The future of artificial intelligence is thriving on the edge, running locally o
 
 Bypassing heavy math, deep theory and complex code, this guide focuses strictly on the end-to-end engineering workflow using the **Arduino Nano 33 BLE Sense** ecosystem and **Edge Impulse**.
 
-* 
 ### 🛒 Where to Buy
 
-* Available on Amazon worldwide (e.g., amazon.com, amazon.co.uk, amazon.nl, amazon.de, amazon.ca, etc.)  
+Available on Amazon worldwide (e.g., amazon.com, amazon.co.uk, amazon.nl, amazon.de, amazon.ca, etc.)  
   **[Buy on Amazon (Paperback)](https://www.amazon.nl/-/en/Asif-Khan/dp/B0H2BLFP59/)**
 
 ## 📖 About the Author
