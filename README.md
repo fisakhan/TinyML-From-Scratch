@@ -21,6 +21,12 @@ Available on Amazon worldwide (e.g., amazon.com, amazon.co.uk, amazon.nl, amazon
   **[Buy on Amazon (Paperback)](https://www.amazon.nl/-/en/Asif-Khan/dp/B0H2BLFP59/)**
 </p>
 
+<p align="center">
+  Available on Amazon worldwide (e.g., .nl, .uk, .de, .it, etc.)<br>
+  👉 <a href="https://www.amazon.nl/-/en/Asif-Khan/dp/B0H2BLFP59/">Buy on Amazon</a>
+</p>
+
+
 
 ---
 
