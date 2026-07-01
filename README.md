@@ -1,7 +1,7 @@
 # TinyML From Scratch: Hands-On TinyML and Edge AI
 <img width="1024" height="1536" alt="front_cover" src="https://github.com/user-attachments/assets/300e21ad-f024-497f-afd1-7ac5b076783f" />
 
-Welcome to the official companion repository for **TinyML From Scratch: Hands-On TinyML and Edge AI (First Edition)** by Asif Khan, PhD. 
+Welcome to the official companion repository for **TinyML From Scratch: Hands-On TinyML and Edge AI** by Asif Khan, PhD. 
 
 This repository contains all the production-ready code, datasets, pre-trained TinyML models, firmware components, and deployment pipelines discussed throughout the book. This is not a replacement for the book. It is a companion resource designed to reduce friction and increase success. It is designed to take you to confidently running optimized, stable machine learning models locally on hardware. 
 
@@ -17,6 +17,7 @@ Bypassing heavy math, deep theory and complex code, this guide focuses strictly 
 
 Available on Amazon worldwide (e.g., amazon.com, amazon.co.uk, amazon.nl, amazon.de, amazon.ca, etc.)  
   **[Buy on Amazon (Paperback)](https://www.amazon.nl/-/en/Asif-Khan/dp/B0H2BLFP59/)**
+
 
 ## 📖 About the Author
 * **[Linkedin](https://www.linkedin.com/in/dr-asifkhan/)**
