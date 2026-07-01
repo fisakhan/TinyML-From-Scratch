@@ -54,6 +54,8 @@ cd TinyML-From-Scratch
 
 If you are following the book, use the release that matches your book edition.
 ```
+
+---
 # License
 This repository is provided for educational use. Code may be reused in personal and academic projects. Attribution is appreciated. See LICENSE file for details.
 
@@ -69,6 +71,6 @@ If you encounter:
 This helps improve the learning experience for everyone.
 
 <br>
-### 📖 About the Author
+## About the Author
 * **[Linkedin](https://www.linkedin.com/in/dr-asifkhan/)**
 * **[Website](https://sites.google.com/view/asif-website/home?authuser=0)**
